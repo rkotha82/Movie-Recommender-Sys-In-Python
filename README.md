@@ -5,7 +5,7 @@ Link to dataset: https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 
 Link to the Web application: 
 
-What is a Recommendation System ?
+## What is a Recommendation System? ##
 As it is clear by name, Recommender System is a piece of software that recommends us the relevant products or services. Recommender systems are everywhere. There can’t be a day when you don’t come through a recommender system on web.
 
 Recommender system is the most basic application of machine learning. Some real life examples of recommender system:
@@ -60,9 +60,9 @@ Text 2 = “All Money All”
 Step 1 : There are only two unique words between both texts. ‘Money’ and ‘All’
 Step 2 : Counting the frequency.
 
-------Text 1---Text2
-Money---2--------1
-All-----1--------2
+------Text 1---Text2 </ br>
+Money---2--------1 </ br>
+All-----1--------2 </ br>
 
 Step 3 and Step 4 : There are only two unique words, hence we’re making a 2D graph.
 
