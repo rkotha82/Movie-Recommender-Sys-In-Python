@@ -1,4 +1,4 @@
-# MovieRecommenderSysInPython
+# Movie Recommender System In Python
 This is a Hollywood Movie recommender system built in Python. IMDB 5000 Movie dataset was used to build this. 
 
 Link to dataset: https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
