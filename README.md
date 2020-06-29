@@ -60,15 +60,15 @@ Text 2 = “All Money All”
 Step 1 : There are only two unique words between both texts. ‘Money’ and ‘All’
 Step 2 : Counting the frequency.
 
-------Text 1---Text2 </ br>
-Money---2--------1 </ br>
-All-----1--------2 </ br>
+------Text 1---Text2 <br />
+Money---2--------1 <br />
+All-----1--------2 <br />
 
 Step 3 and Step 4 : There are only two unique words, hence we’re making a 2D graph.
 
 Now we need to find the cosine of angle ‘a’, which is the value of angle between both vectors. Here is the formula used for doing this:
 
-** Angle Between Two Vectors **
+** Angle Between Two Vectors ** <br />
 For Finding Angle between two vectors, check out the link: https://www.youtube.com/watch?v=dYPRYO8QhxU
 
 In our case, cos(a) = 0.8 . Hence similarity score between Text 1 and Text 2 is 0.8, so we can say that both the texts are 80% similar.
