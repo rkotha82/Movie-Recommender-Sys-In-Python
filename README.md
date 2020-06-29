@@ -15,11 +15,11 @@ Amazon recommends us products based on the products we checked out in the past. 
 ###  Types of Recommender System
 There are basically two main components of any recommendation system, Users and Items. Items are the entities that are recommended by the recommender system to the users. Let’s understand by taking some examples:
 
-__Platform--User--Item__
-Netflix--	People--Movies
-Facebook--People--People
-Amazon--People--Product
-Linkedin--People--Jobs
+__Platform--User--Item__ <br />
+Netflix--	People--Movies <br />
+Facebook--People--People <br />
+Amazon--People--Product <br />
+Linkedin--People--Jobs <br />
 
 Netflix recommends movies to the people, hence movies are items and people are users, while Facebook recommends the people you may know to the people, here people are users and people are items too.
 
@@ -51,14 +51,14 @@ Content Based Recommender System recommends items similar to the items user like
 
 Here we’ll use cosine similarity between text details of items. In the example below it is shown how to get cosine similarity:
 
-Step 1 : Count the number of unique words in both texts.
-Step 2 : Count the frequency of each word in each text.
-Step 3 : Plot it by taking each word as an axis and frequency as measure.
-Step 4 : Find the points of both texts and get the value of cosine distance between them.
-Example : Text 1 = “Money All Money”
-Text 2 = “All Money All”
-Step 1 : There are only two unique words between both texts. ‘Money’ and ‘All’
-Step 2 : Counting the frequency.
+Step 1 : Count the number of unique words in both texts. <br />
+Step 2 : Count the frequency of each word in each text. <br />
+Step 3 : Plot it by taking each word as an axis and frequency as measure. <br />
+Step 4 : Find the points of both texts and get the value of cosine distance between them. <br />
+Example : Text 1 = “Money All Money” <br />
+Text 2 = “All Money All” <br />
+Step 1 : There are only two unique words between both texts. ‘Money’ and ‘All’ <br />
+Step 2 : Counting the frequency. <br />
 
 ------Text 1---Text2 <br />
 Money---2--------1 <br />
